@@ -1,0 +1,29 @@
+{
+  "name": "express-postgresql",
+  "version": "1.0.0",
+  "description": "Node.js express + postresql example by https://www.youtube.com/watch?v=p3RFMEixUOE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelNartov/express-postgresql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelNartov/express-postgresql/issues"
+  },
+  "homepage": "https://github.com/PavelNartov/express-postgresql#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
